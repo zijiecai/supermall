@@ -41,7 +41,8 @@ const routes = [
 
 const router = new VueRouter({
   routes,
-  mode:'history'
+  // 项目部署到服务器注释掉下面这行代码
+  // mode:'history'
 })
 
 export default router;
